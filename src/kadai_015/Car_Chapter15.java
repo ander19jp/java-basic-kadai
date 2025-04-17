@@ -10,7 +10,6 @@ public class Car_Chapter15 {
 		System.out.println("ギア" + this.gear + "から" + afterGear + "に切り替えました");
 		this.gear = afterGear;
 		
-		
 		//ギアが1～5の範囲なら、そのギアに応じた速度
 		if (afterGear >= 1 && afterGear <= 5) {
 			this.speed = afterGear * 10;
